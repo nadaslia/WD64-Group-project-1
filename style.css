@@ -1,6 +1,10 @@
 @import url("styleclients.css");
+@import url("promo.css");
+@import url("features.css");
+@import url("prices.css");
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
