@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clients-bigbox {
+  background: linear-gradient(135deg, #ffecd2, #cf775a);
+  padding: 0rem 1rem; /* 2rem top & bottom, 1rem to the sides */
+}
+
+.clients-bigbox-header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex; /* activa flexbox */
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.clients-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0rem;
+}
+
+.clients-gallery img {
+  height: auto; /* to be in proportion */
+  width: auto; /* to avoid deformation */
+
+  /* circle aspect */
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+
+  min-height: 150px;
+  max-height: 150px;
+  display: block;
+}
+
+img:hover {
+  transform: scale(1.2); /* grows 20% */
+  cursor: help; /* changes the mouse pointer */
+  transition: transform 0.6s ease; /*smooth animation */
+}
