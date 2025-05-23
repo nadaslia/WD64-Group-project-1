@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.features {
+  border: solid red 2px;
+  background-color: blueviolet;
+  margin: 0 2vw;
+  padding: 30em 0 30em 0;
+}
+
+.h2-features {
+  font-size: 10em;
+}
+
+.features-gallery {
+  border: solid red 2px;
+  display: flex;
+  justify-content: center;
+  width: 100em;
+}
+
+.features-figure {
+  flex: 25%;
+}
