@@ -5,23 +5,59 @@
 }
 
 .features {
-  border: solid red 2px;
-  background-color: blueviolet;
-  margin: 0 2vw;
-  padding: 30em 0 30em 0;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 50em;
+  padding: 2rem 0;
+  position: relative;
+
+  background: linear-gradient(0deg, #fff9ea 0%, hsla(208, 90%, 88%, 1) 100%);
+  /* border: solid red 2px; */
+}
+
+.h2-container-features {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  font-size: clamp(1rem, 5vw, 8rem);
 }
 
 .h2-features {
-  font-size: 10em;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px #f1a3a2;
 }
 
 .features-gallery {
-  border: solid red 2px;
+  /* border: solid red 2px; */
   display: flex;
-  justify-content: center;
-  width: 100em;
+  align-self: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px 50px;
+  margin: auto 0;
+  text-align: center;
+  max-width: 800px;
+  color: #4a444a;
+  z-index: 10;
+}
+
+.features-figure img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .features-figure {
-  flex: 25%;
+  background-color: #251927cb;
+  box-shadow: 4px 4px 10px 4px #f1a3a2;
+  border-radius: 20px;
+  color: #fff9ea;
+
+  /* border: solid #251e1bc0 1px; */
+}
+
+.features-figure figcaption {
+  max-width: 190px;
+  margin: auto;
+  margin-bottom: 5px;
 }
