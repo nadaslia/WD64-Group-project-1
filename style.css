@@ -4,6 +4,7 @@
 @import url("prices.css");
 @import url("header.css");
 @import url("styletestimonials.css");
+@import url("home.css");
 
 * {
   box-sizing: border-box;

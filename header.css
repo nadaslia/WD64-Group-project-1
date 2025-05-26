@@ -10,8 +10,8 @@ header {
   flex-direction: column;
   padding: none;
   width: 100vw;
-  position: fixed;
-  margin-bottom: 5%;
+  /*   position: fixed; <-- Brings issues when active. */
+  /* margin-bottom: 5%; */
   margin-top: 0%;
   z-index: 50;
   background-color: white;
