@@ -5,5 +5,40 @@
 }
 
 .promo {
+  min-height: 32em;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(180deg, #f1a3a2 0%, hsla(208, 90%, 88%, 1) 100%);
+  padding: 2rem 0;
+}
+.h2-promo {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px #251927cb;
+  position: absolute;
+  left: 600px;
+  top: 0;
+  font-size: 7vw;
+  z-index: 0;
+}
+
+.promo-video-container {
+  z-index: 10;
+  color: white;
+  background: linear-gradient(90deg, #5d2db6 0%, #d400ff 90%);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 4px #f1a3a2;
+}
+
+.promo-video-container figcaption {
+  padding: 5px 15px;
+}
+
+video {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  max-width: 600px;
 }
