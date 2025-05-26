@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.subscribe {
+  height: 11em;
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/grid.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.subscribe-container {
+  background-color: blueviolet;
+  height: 100%;
+  width: 85%;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fc5000ee, #fcb200, #0cd2ffe5);
+  padding-bottom: 15px;
+}
+
+.h2-subscribe {
+  font-size: 1.4rem;
+  display: flex;
+  flex: 1;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.subsrcibe-text {
+  flex: 2;
+  color: white;
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 1px #120314e0;
+  font-weight: bold;
+}
+
+.subscribe-button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #ea00ff;
+  color: white;
+  border: 2px solid #ea00ff;
+  box-shadow: 1px 1px 1px 1px #1900ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.subscribe-button:hover {
+  background-color: #5855d2;
+  box-shadow: 2px 1px 3px 3px #ea00ff;
+}
+
+.subscribe-button:active {
+  transform: scale(0.9);
+  transition: 0.3s;
+}

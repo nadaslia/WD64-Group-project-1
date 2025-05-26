@@ -32,7 +32,7 @@
 
 .h2-container-features {
   position: absolute;
-  right: 0px;
+  right: 15px;
   top: 0;
   font-size: clamp(1rem, 5vw, 8rem);
 }
@@ -73,9 +73,15 @@
 }
 
 .features-figure figcaption {
-  max-width: 150px;
+  max-width: 190px;
   margin: auto;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-shadow: px 2px #000000;
   text-align: center;
+}
+
+.features-figure:hover {
+  transform: scale(1.1); /* grows 10% */
+  cursor: help; /* changes the mouse pointer */
+  transition: transform 0.3s ease; /*smooth animation */
 }

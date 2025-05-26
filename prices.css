@@ -20,7 +20,7 @@
 }
 
 .prices-overlay {
-  background: linear-gradient(180deg, #eb9da6e5 0%, #4f52e2f1 100%);
+  background: linear-gradient(180deg, #eb9da6e5 0%, #4f52e2fa 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -105,4 +105,10 @@
 .prices-button:active {
   transform: scale(0.9);
   transition: 0.3s;
+}
+
+.prices-card:hover {
+  transform: scale(1.1); /* grows 10% */
+  cursor: help; /* changes the mouse pointer */
+  transition: transform 0.3s ease; /*smooth animation */
 }
