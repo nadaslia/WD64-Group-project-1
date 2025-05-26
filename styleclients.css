@@ -41,7 +41,7 @@
   display: block;
 }
 
-img:hover {
+.clients-gallery img:hover {
   transform: scale(1.2); /* grows 20% */
   cursor: help; /* changes the mouse pointer */
   transition: transform 0.6s ease; /*smooth animation */

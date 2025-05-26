@@ -3,9 +3,10 @@
 @import url("features.css");
 @import url("prices.css");
 @import url("header.css");
+@import url("styletestimonials.css");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
