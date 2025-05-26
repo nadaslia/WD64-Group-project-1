@@ -41,4 +41,6 @@ video {
   border-top-right-radius: 10px;
 
   max-width: 600px;
+
+  height: 240px;
 }
