@@ -11,9 +11,24 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  background: linear-gradient(180deg, #f1a3a2 0%, hsla(208, 90%, 88%, 1) 100%);
+  background-image: url("./images/grid.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   padding: 2rem 0;
 }
+
+.promo-overlay {
+  background: linear-gradient(180deg, #c711d898 0%, #6790e2d5 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
 .h2-promo {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px #251927cb;

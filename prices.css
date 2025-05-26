@@ -10,9 +10,23 @@
   align-items: center;
   margin: auto;
   min-height: 50em;
-  background: linear-gradient(90deg, #faf7db 0%, rgb(177, 217, 252) 100%);
+  position: relative;
+  background-image: url("./images/grid.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   /* border: solid red 2px; */
+}
+
+.prices-overlay {
+  background: linear-gradient(180deg, #eb9da6e5 0%, #4f52e2f1 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 .prices-card-container {
@@ -21,11 +35,14 @@
   padding: 5rem 0rem;
   justify-content: space-evenly;
   gap: 5em;
+  z-index: 3;
 
   /* border: solid red 2px; */
 }
 
 .prices-card {
+  display: flex;
+  flex-direction: column;
   max-width: 350px;
   min-height: 40em;
   text-align: left;
@@ -37,6 +54,10 @@
   background: linear-gradient(0deg, #f1a3a2 0%, #8d3ee7 100%);
 
   /* border: solid red 2px; */
+}
+
+.prices-text-content {
+  flex: 1;
 }
 
 .prices-heading {
@@ -52,4 +73,36 @@
   padding-bottom: 2rem;
   font-size: 1.2rem;
   text-shadow: 2px 2px #331f1e;
+}
+
+.h3-price-subscription {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.prices-button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #ea00ff;
+  color: white;
+  border: 2px solid #ea00ff;
+  box-shadow: 2px 1px 3px 3px #11cf1a;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.prices-button:hover {
+  background-color: #5855d2;
+  box-shadow: 2px 1px 3px 3px #ea00ff;
+}
+
+.prices-button:active {
+  transform: scale(0.9);
+  transition: 0.3s;
 }
