@@ -38,7 +38,6 @@
   margin: auto 0;
   text-align: center;
   max-width: 800px;
-  color: #4a444a;
   z-index: 10;
 }
 
@@ -48,7 +47,8 @@
 }
 
 .features-figure {
-  background-color: #251927cb;
+  background: linear-gradient(0deg, #5d2db6 0%, #d400ff 40%);
+
   box-shadow: 4px 4px 10px 4px #f1a3a2;
   border-radius: 20px;
   color: #fff9ea;
@@ -57,7 +57,9 @@
 }
 
 .features-figure figcaption {
-  max-width: 190px;
+  max-width: 150px;
   margin: auto;
   margin-bottom: 5px;
+  text-shadow: px 2px #000000;
+  text-align: center;
 }

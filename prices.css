@@ -6,4 +6,50 @@
 
 .prices {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 50em;
+  background: linear-gradient(90deg, #faf7db 0%, rgb(177, 217, 252) 100%);
+
+  /* border: solid red 2px; */
+}
+
+.prices-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 0rem;
+  justify-content: space-evenly;
+  gap: 5em;
+
+  /* border: solid red 2px; */
+}
+
+.prices-card {
+  max-width: 350px;
+  min-height: 40em;
+  text-align: left;
+  /* background-color: green; */
+  border-radius: 20px;
+  padding: 30px 30px;
+  box-shadow: 4px 4px 10px 4px #f1a3a2;
+  color: white;
+  background: linear-gradient(0deg, #f1a3a2 0%, #8d3ee7 100%);
+
+  /* border: solid red 2px; */
+}
+
+.prices-heading {
+  font-size: 1.8rem;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px #331f1e;
+}
+.prices-ul {
+  list-style: none;
+}
+
+.prices-ul li {
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px #331f1e;
 }

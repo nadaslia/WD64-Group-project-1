@@ -27,10 +27,18 @@
 .promo-video-container {
   z-index: 10;
   color: white;
-  background-color: #251927cb;
-  border-radius: 5px;
+  background: linear-gradient(90deg, #5d2db6 0%, #d400ff 90%);
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 4px #f1a3a2;
 }
 
 .promo-video-container figcaption {
   padding: 5px 15px;
+}
+
+video {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  max-width: 600px;
 }
