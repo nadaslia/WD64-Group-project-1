@@ -5,7 +5,11 @@
 }
 
 .clients-bigbox {
-  background: linear-gradient(135deg, #ffecd2, #cf775a);
+  background-image: url(https://i.redd.it/528gsdo76uf31.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   padding: 0rem 1rem; /* 2rem top & bottom, 1rem to the sides */
 }
 
@@ -23,7 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   padding: 2rem 0rem;
 }
 
@@ -39,6 +43,8 @@
   min-height: 150px;
   max-height: 150px;
   display: block;
+  /* shadow */
+  box-shadow: 0px 0px 15px 5px rgba(0, 255, 229, 0.738);
 }
 
 .clients-gallery img:hover {
